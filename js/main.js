@@ -39,7 +39,7 @@
       return '' +
         '<article class="product-card reveal" style="--d:' + (i * 90) + 'ms">' +
           '<div class="product-media">' +
-            '<img src="' + p.img + '" alt="' + pick(p.title) + '" loading="lazy" decoding="async">' +
+            '<img src="' + p.img + '" alt="' + pick(p.title) + '" loading="eager" decoding="async">' +
             '<span class="product-badge"><i class="fa-solid fa-bolt" aria-hidden="true"></i>' + pick(p.badge) + '</span>' +
           '</div>' +
           '<div class="product-body">' +
