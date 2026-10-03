@@ -176,6 +176,21 @@ body.lang-ar .eyebrow { letter-spacing: 0; }
   box-shadow: 0 16px 40px rgba(31, 111, 235, 0.4);
 }
 .btn-download:hover { box-shadow: 0 24px 58px rgba(31, 111, 235, 0.5); }
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .8rem;
+}
+.btn-download-backup {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .32);
+  background: rgba(255, 255, 255, .08);
+}
+.btn-download-backup:hover {
+  border-color: rgba(255, 255, 255, .62);
+  background: rgba(255, 255, 255, .14);
+}
 
 /* ---------------------------- 4. Scroll bar ---------------------------- */
 .scroll-progress {
