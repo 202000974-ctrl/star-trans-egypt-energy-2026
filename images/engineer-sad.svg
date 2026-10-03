@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480" role="img" aria-label="Sad Star Trans engineer in a lab coat">
+  <defs>
+    <linearGradient id="coatG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e4ebf8"/>
+    </linearGradient>
+    <linearGradient id="badgeG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35c8f5"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d3b4"/>
+      <stop offset="1" stop-color="#eab993"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="456" rx="112" ry="15" fill="#1f6feb" opacity="0.1"/>
+
+  <!-- legs -->
+  <rect x="162" y="322" width="36" height="118" rx="14" fill="#1b2b4d"/>
+  <rect x="202" y="322" width="36" height="118" rx="14" fill="#16233f"/>
+
+  <!-- shoes -->
+  <rect x="150" y="428" width="54" height="24" rx="12" fill="#0f1c33"/>
+  <rect x="196" y="428" width="54" height="24" rx="12" fill="#0f1c33"/>
+
+  <!-- lab coat -->
+  <path d="M142 206 Q200 188 258 206 L288 352 Q200 372 112 352 Z" fill="url(#coatG)" stroke="#d2dcee" stroke-width="2"/>
+
+  <!-- shirt -->
+  <path d="M174 200 L200 258 L226 200 Z" fill="#1f6feb"/>
+
+  <!-- collar -->
+  <path d="M170 196 L200 260 L180 200 Z" fill="#ffffff" stroke="#d2dcee" stroke-width="1.5"/>
+  <path d="M230 196 L200 260 L220 200 Z" fill="#ffffff" stroke="#d2dcee" stroke-width="1.5"/>
+
+  <!-- pocket -->
+  <rect x="228" y="272" width="46" height="36" rx="7" fill="none" stroke="#d2dcee" stroke-width="2"/>
+
+  <!-- Star Trans badge -->
+  <rect x="136" y="252" width="62" height="30" rx="9" fill="url(#badgeG)"/>
+  <path d="M152 258 l-8 13 h8 l-3 11 12 -15 h-8 z" fill="#ffffff"/>
+  <text x="170" y="266" font-family="Inter, Arial, Helvetica, sans-serif" font-size="8.5" font-weight="800" fill="#ffffff">STAR</text>
+  <text x="170" y="275" font-family="Inter, Arial, Helvetica, sans-serif" font-size="7.5" font-weight="600" fill="#d5ebff">TRANS</text>
+
+  <!-- left arm (down, slumped) -->
+  <rect x="112" y="212" width="36" height="118" rx="18" fill="url(#coatG)" stroke="#d2dcee" stroke-width="2" transform="rotate(6 130 214)"/>
+  <circle cx="118" cy="327" r="18" fill="url(#skinG)"/>
+
+  <!-- right arm (down, slumped) -->
+  <rect x="252" y="212" width="36" height="118" rx="18" fill="url(#coatG)" stroke="#d2dcee" stroke-width="2" transform="rotate(-6 270 214)"/>
+  <circle cx="282" cy="327" r="18" fill="url(#skinG)"/>
+
+  <!-- neck -->
+  <rect x="184" y="160" width="32" height="42" rx="12" fill="#e8b892"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="126" rx="63" ry="69" fill="url(#skinG)"/>
+  <circle cx="137" cy="130" r="14" fill="#eab993"/>
+  <circle cx="263" cy="130" r="14" fill="#eab993"/>
+
+  <!-- hair -->
+  <path d="M136 122 Q132 58 200 54 Q268 58 264 122 Q252 92 200 88 Q148 92 136 122 Z" fill="#2b3a55"/>
+
+  <!-- sad eyebrows -->
+  <path d="M164 110 L188 100" fill="none" stroke="#243b5e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M236 110 L212 100" fill="none" stroke="#243b5e" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <ellipse cx="178" cy="126" rx="6" ry="7.5" fill="#243b5e"/>
+  <ellipse cx="222" cy="126" rx="6" ry="7.5" fill="#243b5e"/>
+
+  <!-- down-turned mouth -->
+  <path d="M176 160 q26 -26 52 0" fill="none" stroke="#243b5e" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- tear -->
+  <path d="M238 138 q-8 15 0 20 q8 -5 0 -20 z" fill="#6cc4f5"/>
+
+  <!-- small grey cloud -->
+  <g opacity="0.85">
+    <ellipse cx="200" cy="30" rx="36" ry="17" fill="#c7d5ea"/>
+    <ellipse cx="174" cy="38" rx="22" ry="13" fill="#c7d5ea"/>
+    <ellipse cx="226" cy="38" rx="22" ry="13" fill="#c7d5ea"/>
+  </g>
+</svg>
