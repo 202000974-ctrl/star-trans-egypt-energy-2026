@@ -22,7 +22,7 @@ const DATA = {
   products: [
     {
       key: 'transformers',
-      img: 'images/product-transformers.jpg',
+      img: 'images/product-transformers.webp',
       badge: { en: 'Product Line', ar: 'خط إنتاج' },
       title: { en: 'Low Voltage Transformers', ar: 'محولات الجهد المنخفض' },
       desc: {
@@ -45,7 +45,7 @@ const DATA = {
     },
     {
       key: 'stabilizers',
-      img: 'images/product-stabilizers.jpg',
+      img: 'images/product-stabilizers.webp',
       badge: { en: 'Product Line', ar: 'خط إنتاج' },
       title: { en: 'Voltage Stabilizers', ar: 'مثبتات الجهد' },
       desc: {
@@ -65,7 +65,7 @@ const DATA = {
     },
     {
       key: 'reactors',
-      img: 'images/product-reactors.png',
+      img: 'images/product-reactors.webp',
       badge: { en: 'Product Line', ar: 'خط إنتاج' },
       title: { en: 'Reactors', ar: 'المفاعلات' },
       desc: {
@@ -85,7 +85,7 @@ const DATA = {
     },
     {
       key: 'panels',
-      img: 'images/product-lv-panels.jpg',
+      img: 'images/product-lv-panels.webp',
       badge: { en: 'Product Line', ar: 'خط إنتاج' },
       title: { en: 'Low Voltage Panels', ar: 'لوحات الجهد المنخفض' },
       desc: {
@@ -107,7 +107,7 @@ const DATA = {
     },
     {
       key: 'medical',
-      img: 'images/product-medical.jpg',
+      img: 'images/product-medical.webp',
       badge: { en: 'Product Line', ar: 'خط إنتاج' },
       title: { en: 'Medical Isolation Solutions', ar: 'حلول العزل الطبي' },
       desc: {
@@ -129,14 +129,14 @@ const DATA = {
 
   /* Horizontal gallery — uses the campaign posters */
   gallery: [
-    { img: 'images/poster-meet.jpg',       title: { en: 'Meet Star Trans',            ar: 'قابل ستار ترانس' },        sub: { en: 'Egypt Energy 2026 · Hall 2, H2.G50', ar: 'إيجيبت إنرجي 2026 · قاعة 2، H2.G50' } },
-    { img: 'images/product-transformers.jpg', title: { en: 'Low Voltage Transformers', ar: 'محولات الجهد المنخفض' },   sub: { en: 'Isolation for every application',    ar: 'عزل لكل التطبيقات' } },
-    { img: 'images/product-stabilizers.jpg',  title: { en: 'Stabilizer Solutions',      ar: 'حلول مثبتات الجهد' },      sub: { en: 'Servo PRO-S & Servo Linear TPL',     ar: 'سيرفو PRO-S وسيرفو لينير TPL' } },
-    { img: 'images/product-reactors.png',     title: { en: 'Reactor Solutions',         ar: 'حلول المفاعلات' },         sub: { en: 'Line · Load · Shunt',                ar: 'الخط · الحمل · التوازي' } },
-    { img: 'images/product-lv-panels.jpg',    title: { en: 'Low Voltage Panels',        ar: 'لوحات الجهد المنخفض' },    sub: { en: 'Safe. Reliable. Versatile.',         ar: 'آمنة. موثوقة. متعددة الاستخدامات.' } },
-    { img: 'images/product-medical.jpg',      title: { en: 'Medical Isolation',         ar: 'العزل الطبي' },            sub: { en: 'Reliable power for better care',     ar: 'طاقة موثوقة لرعاية أفضل' } },
-    { img: 'images/poster-variant.png',       title: { en: 'Full Power Range',          ar: 'التشكيلة الكاملة' },       sub: { en: 'One integrated portfolio',           ar: 'محفظة متكاملة واحدة' } },
-    { img: 'images/booth-render-2.jpg',       title: { en: 'Our Booth',                 ar: 'الجناح الخاص بنا' },       sub: { en: 'Designed for conversation',          ar: 'مصمم للحوار والاجتماعات' } },
-    { img: 'images/poster-night.jpg',         title: { en: 'Visit Us',                  ar: 'زورونا' },                 sub: { en: 'Be part of a brighter tomorrow',     ar: 'كونوا جزءًا من غدٍ أكثر إشراقًا' } }
+    { img: 'images/poster-meet.webp',       title: { en: 'Meet Star Trans',            ar: 'قابل ستار ترانس' },        sub: { en: 'Egypt Energy 2026 · Hall 2, H2.G50', ar: 'إيجيبت إنرجي 2026 · قاعة 2، H2.G50' } },
+    { img: 'images/product-transformers.webp', title: { en: 'Low Voltage Transformers', ar: 'محولات الجهد المنخفض' },   sub: { en: 'Isolation for every application',    ar: 'عزل لكل التطبيقات' } },
+    { img: 'images/product-stabilizers.webp',  title: { en: 'Stabilizer Solutions',      ar: 'حلول مثبتات الجهد' },      sub: { en: 'Servo PRO-S & Servo Linear TPL',     ar: 'سيرفو PRO-S وسيرفو لينير TPL' } },
+    { img: 'images/product-reactors.webp',     title: { en: 'Reactor Solutions',         ar: 'حلول المفاعلات' },         sub: { en: 'Line · Load · Shunt',                ar: 'الخط · الحمل · التوازي' } },
+    { img: 'images/product-lv-panels.webp',    title: { en: 'Low Voltage Panels',        ar: 'لوحات الجهد المنخفض' },    sub: { en: 'Safe. Reliable. Versatile.',         ar: 'آمنة. موثوقة. متعددة الاستخدامات.' } },
+    { img: 'images/product-medical.webp',      title: { en: 'Medical Isolation',         ar: 'العزل الطبي' },            sub: { en: 'Reliable power for better care',     ar: 'طاقة موثوقة لرعاية أفضل' } },
+    { img: 'images/poster-variant.webp',       title: { en: 'Full Power Range',          ar: 'التشكيلة الكاملة' },       sub: { en: 'One integrated portfolio',           ar: 'محفظة متكاملة واحدة' } },
+    { img: 'images/booth-render-2.webp',       title: { en: 'Our Booth',                 ar: 'الجناح الخاص بنا' },       sub: { en: 'Designed for conversation',          ar: 'مصمم للحوار والاجتماعات' } },
+    { img: 'images/poster-night.webp',         title: { en: 'Visit Us',                  ar: 'زورونا' },                 sub: { en: 'Be part of a brighter tomorrow',     ar: 'كونوا جزءًا من غدٍ أكثر إشراقًا' } }
   ]
 };
