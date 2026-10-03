@@ -88,7 +88,7 @@ const TRANSLATIONS = {
     'dl.title': 'Download the Star Trans Catalogue',
     'dl.lead': 'Explore our complete range of low voltage power solutions — transformers, voltage stabilizers, reactors, low voltage panels and medical isolation systems — with technical details and applications.',
     'dl.btn': 'Download PDF Catalogue',
-    'dl.note': 'Opens the full catalogue PDF in a new tab. Best viewed on a desktop for the technical tables.',
+    'dl.note': 'Downloads the full catalogue PDF. Best viewed on a desktop for the technical tables.',
 
     'footer.note': 'Meet us at Egypt Energy 2026 — Hall 2, Booth H2.G50.'
   },
@@ -177,7 +177,7 @@ const TRANSLATIONS = {
     'dl.title': 'حمّل كتالوج ستار ترانس',
     'dl.lead': 'استكشف تشكيلتنا الكاملة من حلول الجهد المنخفض — المحولات، مثبتات الجهد، المفاعلات، لوحات الجهد المنخفض وأنظمة العزل الطبي — مع التفاصيل الفنية والتطبيقات.',
     'dl.btn': 'تحميل كتالوج PDF',
-    'dl.note': 'يفتح الكتالوج الكامل في تبويب جديد. يُفضّل العرض من جهاز كمبيوتر لقراءة الجداول الفنية.',
+    'dl.note': 'يتم تحميل كتالوج PDF الكامل. يُفضّل العرض من جهاز كمبيوتر لقراءة الجداول الفنية.',
 
     'footer.note': 'قابلونا في إيجيبت إنرجي 2026 — قاعة 2، جناح H2.G50.'
   }

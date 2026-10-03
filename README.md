@@ -60,14 +60,13 @@ This is a **single-page static site** — all navigation is in-page anchors on o
 
 ### Catalogue download
 
-The download button on `#download` points to the supplied catalogue PDF:
+The download button on `#download` points to the self-hosted catalogue PDF:
 
 ```
-https://www.genspark.ai/api/files/s/iZnTXp0b
+catalogue.pdf
 ```
 
-To self-host the PDF instead, drop the file into the project (e.g. `files/Star-Trans-Catalogue.pdf`)
-and update the `href` of `.btn-download` in `index.html`.
+The catalogue is included in the project so the download no longer depends on an external host.
 
 ---
 
@@ -181,7 +180,7 @@ Loaded over CDN; an internet connection is required for fonts and icons.
 
 | Purpose | URL |
 |---|---|
-| Catalogue PDF (external) | `https://www.genspark.ai/api/files/s/iZnTXp0b` |
+| Catalogue PDF (self-hosted) | `catalogue.pdf` |
 | Published site | Publish via the **Publish tab** to obtain the live URL |
 
 *No API endpoints are used by this project.*
